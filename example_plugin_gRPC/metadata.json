@@ -1,0 +1,21 @@
+{
+    "id": "example_plugin_gRPC",
+    "version": "1.0.0",
+    "name": "Example Plugin gRPC",
+    "description": "Example Plugin based on gRPC",
+    "author": ["Harry-zklcdc"],
+    "link": "https://www.github.top/Hiper-Link/example-plugin",
+    "dependencies": {
+        "hiperlink": ">=1.0.0"
+    },
+    "command": "./example_plugin_gRPC",
+    "args": [],
+    "type": "gRPC",
+    "root": false,
+    "color": "#ffdad9",
+    "icon": "mdi-puzzle-outline",
+    "frontend": {
+        "ui": true,
+        "configuration": true
+    }
+}

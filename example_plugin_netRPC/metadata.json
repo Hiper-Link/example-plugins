@@ -1,0 +1,21 @@
+{
+    "id": "example_plugin_netRPC",
+    "version": "1.0.0",
+    "name": "Example Plugin netRPC",
+    "description": "Example Plugin based on netRPC",
+    "author": ["Harry-zklcdc"],
+    "link": "https://www.github.top/Hiper-Link/example-plugin",
+    "dependencies": {
+        "hiperlink": ">=1.0.0"
+    },
+    "command": "./example_plugin_netRPC",
+    "args": [],
+    "type": "netRPC",
+    "root": false,
+    "color": "#c4e6ff",
+    "icon": "mdi-hexagon-multiple-outline",
+    "frontend": {
+        "ui": true,
+        "configuration": true
+    }
+}
