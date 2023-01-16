@@ -3,8 +3,8 @@ module example-plugins
 go 1.19
 
 require (
-	github.com/Hiper-Link/go-plugin v0.0.0-20230110161706-34911b23bcc9
-	github.com/Hiper-Link/plugin-libs v0.0.0-20230110163241-dee4c599378a
+	github.com/Hiper-Link/go-plugin v0.0.0-20230116094800-b4f1b824a7cc
+	github.com/Hiper-Link/plugin-libs v0.0.0-20230116100124-5f0cfc90174d
 )
 
 require (
@@ -19,7 +19,7 @@ require (
 	golang.org/x/net v0.5.0 // indirect
 	golang.org/x/sys v0.4.0 // indirect
 	golang.org/x/text v0.6.0 // indirect
-	google.golang.org/genproto v0.0.0-20230109162033-3c3c17ce83e6 // indirect
-	google.golang.org/grpc v1.51.0 // indirect
+	google.golang.org/genproto v0.0.0-20230113154510-dbe35b8444a5 // indirect
+	google.golang.org/grpc v1.52.0 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
 )
