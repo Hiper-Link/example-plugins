@@ -1,0 +1,21 @@
+{
+    "id": "example_plugin_python",
+    "version": "0.0.1",
+    "name": "StudyPlugin",
+    "description": "一个用Python写的基础教程插件",
+    "author": ["天机"],
+    "link": "hiper.ink",
+    "dependencies": {
+        "hiperlink": ">=1.0.0"
+    },
+    "command": "python",
+    "args": ["plugin.py"],
+    "type": "gRPC",
+    "root": false,
+    "color": "#93d5dc",
+    "icon": "mdi-book",
+    "frontend": {
+        "ui": true,
+        "configuration": true
+    }
+}
