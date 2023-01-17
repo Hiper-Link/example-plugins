@@ -1,0 +1,21 @@
+{
+    "id": "study_plugin_rust",
+    "version": "0.0.1",
+    "name": "StudyPlugin",
+    "description": "一个用Rust写的基础教程插件",
+    "author": ["天机"],
+    "link": "hiper.ink",
+    "dependencies": {
+        "hiperlink": ">=1.0.0"
+    },
+    "command": "./plugin",
+    "args": [],
+    "type": "gRPC",
+    "root": false,
+    "color": "#93d5dc",
+    "icon": "mdi-book",
+    "frontend": {
+        "ui": true,
+        "configuration": true
+    }
+}
